@@ -6,7 +6,7 @@ btn = document.querySelector('button');
 
 for (let i = 1; i <= 5; i++) {
     const newImage = document.createElement("img");
-    newImage.setAttribute("src", 'images/p' + i + '.jpg');
+    newImage.setAttribute("src", 'img/p' + i + '.jpg');
     thumbBar.appendChild(newImage);
 
     newImage.onclick = function (e) {
